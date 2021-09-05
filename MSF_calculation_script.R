@@ -13,8 +13,11 @@ ydah_conf1$FoldChange <- ydah_conf1$`ydah_conf1_dimer[1:476, ]`/ydah_conf1$V1
 ydah_conf2$FoldChange <- ydah_conf2$`ydah_conf2_dimer[1:476, ]`/ydah_conf2$V1
 colnames(ydah_conf1)[1] <- "MSF_values_Dimer"
 colnames(ydah_conf1)[2] <- "MSF_values_Monomer"
+ydah_conf1$residue_position <- rownames(ydah_conf1)
 colnames(ydah_conf2)[1] <- "MSF_values_Dimer"
 colnames(ydah_conf2)[2] <- "MSF_values_Monomer"
+ydah_conf2$residue_position <- rownames(ydah_conf2)
+ydah_conf1$residue_position <- rownames(ydah_conf1)
 write.csv(ydah_conf1,'ydah_conf1_results.csv')
 write.csv(ydah_conf2,'ydah_conf2_results.csv')
 
@@ -30,5 +33,7 @@ colnames(mtrf_conf1)[1] <- "MSF_values_Dimer"
 colnames(mtrf_conf1)[2] <- "MSF_values_Monomer"
 colnames(mtrf_conf2)[1] <- "MSF_values_Dimer"
 colnames(mtrf_conf2)[2] <- "MSF_values_Monomer"
+mtrf_conf2$residue_position <- rownames(mtrf_conf2)
+mtrf_conf1$residue_position <- rownames(mtrf_conf1)
 write.csv(mtrf_conf1,'mtrf_conf1_results.csv')
 write.csv(mtrf_conf2,'mtrf_conf2_results.csv')
