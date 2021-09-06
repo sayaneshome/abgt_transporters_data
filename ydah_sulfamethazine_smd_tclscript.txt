@@ -1,0 +1,72 @@
+#TCL Script for analysing Ydah_Sulfamethazine steered MD trajectories
+
+
+set file [open sulf_repl10_smd01_faster.log r]
+set output [open sulf_repl10_smd01_faster.dat w]
+
+set file [open sulf_repl10_smd01_faster.log r]
+while { [gets $file line] != -1 } {
+
+### Determine if a line contains SMD output. If so, write the
+### timestep followed by f(dot)n to the output file
+  if {[lindex $line 0] == "SMD"} {
+      puts $output "[lindex $line 1] [lindex $line 3] [lindex $line 6]"
+    }
+  }
+
+set file [open sulf_repl2_smd01_faster.log r]
+set output [open sulf_repl2_smd01_faster.dat w]
+
+set file [open sulf_repl2_smd01_faster.log r]
+while { [gets $file line] != -1 } {
+
+### Determine if a line contains SMD output. If so, write the
+### timestep followed by f(dot)n to the output file
+  if {[lindex $line 0] == "SMD"} {
+      puts $output "[lindex $line 1] [lindex $line 3] [lindex $line 6]"
+    }
+  }
+    
+  set file [open sulf_repl4_smd01_faster.log r]
+set output [open sulf_repl4_smd01_faster.dat w]
+
+set file [open sulf_repl4_smd01_faster.log r]
+while { [gets $file line] != -1 } {
+
+### Determine if a line contains SMD output. If so, write the
+### timestep followed by f(dot)n to the output file
+  if {[lindex $line 0] == "SMD"} {
+      puts $output "[lindex $line 1] [lindex $line 3] [lindex $line 6]"
+    }
+  }
+  
+    set file [open sulf_repl7_smd01_faster.log r]
+set output [open sulf_repl7_smd01_faster.dat w]
+
+set file [open sulf_repl7_smd01_faster.log r]
+while { [gets $file line] != -1 } {
+
+### Determine if a line contains SMD output. If so, write the
+### timestep followed by f(dot)n to the output file
+  if {[lindex $line 0] == "SMD"} {
+      puts $output "[lindex $line 1] [lindex $line 3] [lindex $line 6]"
+    }
+  }
+  
+  
+      set file [open sulf_repl6_smd01_faster.log r]
+set output [open sulf_repl6_smd01_faster.dat w]
+
+set file [open sulf_repl6_smd01_faster.log r]
+while { [gets $file line] != -1 } {
+
+### Determine if a line contains SMD output. If so, write the
+### timestep followed by f(dot)n to the output file
+  if {[lindex $line 0] == "SMD"} {
+      puts $output "[lindex $line 1] [lindex $line 3] [lindex $line 6]"
+    }
+  }
+  
+  
+  
+  
