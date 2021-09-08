@@ -1,0 +1,79 @@
+06-09-2021:03:11:41,221 INFO     [calc.py:1093] Argument check completed. Proceeding...
+06-09-2021:03:11:41,221 INFO     [calc.py:1095] Started calculation.
+06-09-2021:03:11:41,222 INFO     [calc.py:97] Checking whether the structure has non-protein atoms...
+06-09-2021:03:11:41,362 DEBUG    [logger.py:131] 14276 atoms and 1 coordinate set(s) were parsed in 0.14s.
+06-09-2021:03:11:41,956 DEBUG    [logger.py:131] 14276 atoms and 1 coordinate set(s) were parsed in 0.25s.
+06-09-2021:03:11:41,987 INFO     [logger.py:119] DCD file was written in 0.03 seconds.
+06-09-2021:03:11:41,988 INFO     [logger.py:119] 2.62 MB written at input rate 89.55 MB/s.
+06-09-2021:03:11:41,988 INFO     [logger.py:119] 16 coordinate sets written at output rate 547 frame/s.
+06-09-2021:03:11:41,989 INFO     [logger.py:119] DCD file contains 16 coordinate sets for 14276 atoms.
+06-09-2021:03:11:41,998 INFO     [logger.py:119] DCD file was parsed in 0.01 seconds.
+06-09-2021:03:11:41,999 INFO     [logger.py:119] 2.62 MB parsed at input rate 276.10 MB/s.
+06-09-2021:03:11:42,0 INFO     [logger.py:119] 16 coordinate sets parsed at input rate 1689 frame/s.
+06-09-2021:03:11:42,42 DEBUG    [logger.py:131] Superposition completed in 0.04 seconds.
+06-09-2021:03:11:42,52 INFO     [logger.py:119] DCD file was written in 0.01 seconds.
+06-09-2021:03:11:42,52 INFO     [logger.py:119] 2.62 MB written at input rate 300.67 MB/s.
+06-09-2021:03:11:42,52 INFO     [logger.py:119] 16 coordinate sets written at output rate 1839 frame/s.
+06-09-2021:03:11:42,210 DEBUG    [logger.py:131] 14276 atoms and 1 coordinate set(s) were parsed in 0.16s.
+06-09-2021:03:11:42,213 INFO     [logger.py:119] DCD file contains 16 coordinate sets for 14276 atoms.
+06-09-2021:03:11:42,217 INFO     [logger.py:119] DCD file was parsed in 0.00 seconds.
+06-09-2021:03:11:42,218 INFO     [logger.py:119] 2.61 MB parsed at input rate 651.12 MB/s.
+06-09-2021:03:11:42,218 INFO     [logger.py:119] 16 coordinate sets parsed at input rate 3984 frame/s.
+06-09-2021:03:11:42,270 INFO     [calc.py:614] Starting the filtering step...
+06-09-2021:03:11:43,102 DEBUG    [logger.py:131] Kirchhoff was built in 0.83s.
+06-09-2021:03:11:43,121 INFO     [calc.py:635] Filtered pairs percentage: 6.25
+06-09-2021:03:11:43,638 DEBUG    [logger.py:131] Kirchhoff was built in 0.51s.
+06-09-2021:03:11:43,651 INFO     [calc.py:635] Filtered pairs percentage: 12.5
+06-09-2021:03:11:44,134 DEBUG    [logger.py:131] Kirchhoff was built in 0.48s.
+06-09-2021:03:11:44,145 INFO     [calc.py:635] Filtered pairs percentage: 18.75
+06-09-2021:03:11:44,698 DEBUG    [logger.py:131] Kirchhoff was built in 0.55s.
+06-09-2021:03:11:44,715 INFO     [calc.py:635] Filtered pairs percentage: 25.0
+06-09-2021:03:11:45,297 DEBUG    [logger.py:131] Kirchhoff was built in 0.58s.
+06-09-2021:03:11:45,309 INFO     [calc.py:635] Filtered pairs percentage: 31.25
+06-09-2021:03:11:45,917 DEBUG    [logger.py:131] Kirchhoff was built in 0.61s.
+06-09-2021:03:11:45,934 INFO     [calc.py:635] Filtered pairs percentage: 37.5
+06-09-2021:03:11:46,668 DEBUG    [logger.py:131] Kirchhoff was built in 0.73s.
+06-09-2021:03:11:46,681 INFO     [calc.py:635] Filtered pairs percentage: 43.75
+06-09-2021:03:11:47,347 DEBUG    [logger.py:131] Kirchhoff was built in 0.66s.
+06-09-2021:03:11:47,360 INFO     [calc.py:635] Filtered pairs percentage: 50.0
+06-09-2021:03:11:47,988 DEBUG    [logger.py:131] Kirchhoff was built in 0.63s.
+06-09-2021:03:11:48,4 INFO     [calc.py:635] Filtered pairs percentage: 56.25
+06-09-2021:03:11:48,693 DEBUG    [logger.py:131] Kirchhoff was built in 0.69s.
+06-09-2021:03:11:48,705 INFO     [calc.py:635] Filtered pairs percentage: 62.5
+06-09-2021:03:11:49,277 DEBUG    [logger.py:131] Kirchhoff was built in 0.57s.
+06-09-2021:03:11:49,290 INFO     [calc.py:635] Filtered pairs percentage: 68.75
+06-09-2021:03:11:49,948 DEBUG    [logger.py:131] Kirchhoff was built in 0.66s.
+06-09-2021:03:11:49,960 INFO     [calc.py:635] Filtered pairs percentage: 75.0
+06-09-2021:03:11:50,612 DEBUG    [logger.py:131] Kirchhoff was built in 0.65s.
+06-09-2021:03:11:50,626 INFO     [calc.py:635] Filtered pairs percentage: 81.25
+06-09-2021:03:11:51,302 DEBUG    [logger.py:131] Kirchhoff was built in 0.67s.
+06-09-2021:03:11:51,316 INFO     [calc.py:635] Filtered pairs percentage: 87.5
+06-09-2021:03:11:51,920 DEBUG    [logger.py:131] Kirchhoff was built in 0.60s.
+06-09-2021:03:11:51,938 INFO     [calc.py:635] Filtered pairs percentage: 93.75
+06-09-2021:03:11:52,511 DEBUG    [logger.py:131] Kirchhoff was built in 0.57s.
+06-09-2021:03:11:52,525 INFO     [calc.py:635] Filtered pairs percentage: 100.0
+06-09-2021:03:11:52,533 INFO     [calc.py:663] Number of interaction pairs selected after filtering step: 1
+06-09-2021:03:11:52,537 INFO     [calc.py:381] Splitting the pairs into chunks...
+06-09-2021:03:11:52,567 INFO     [calc.py:450] Starting threads for interaction energy calculation...
+06-09-2021:03:11:52,577 INFO     [calc.py:232] Started an energy calculation thread.
+06-09-2021:03:11:52,578 INFO     [calc.py:232] Started an energy calculation thread.
+06-09-2021:03:11:52,581 INFO     [calc.py:232] Started an energy calculation thread.
+06-09-2021:03:11:52,582 INFO     [calc.py:375] Completed calculation percentage: 100.0
+06-09-2021:03:11:52,583 INFO     [calc.py:377] Completed a pairwise energy calculation thread.
+06-09-2021:03:11:52,586 INFO     [calc.py:375] Completed calculation percentage: 100.0
+06-09-2021:03:11:52,587 INFO     [calc.py:377] Completed a pairwise energy calculation thread.
+06-09-2021:03:11:52,835 DEBUG    [logger.py:131] 14276 atoms and 1 coordinate set(s) were parsed in 0.25s.
+06-09-2021:03:11:56,446 INFO     [calc.py:333] Energies saved to 163_409_energies.log
+06-09-2021:03:11:56,450 INFO     [calc.py:375] Completed calculation percentage: 100.0
+06-09-2021:03:11:56,451 INFO     [calc.py:377] Completed a pairwise energy calculation thread.
+06-09-2021:03:11:56,489 INFO     [common.py:128] Parsing: /Users/sayaneshome/Desktop/lola1/grinn_resnum426to180/163_409_energies.log
+06-09-2021:03:11:56,790 DEBUG    [logger.py:131] 14276 atoms and 1 coordinate set(s) were parsed in 0.30s.
+06-09-2021:03:11:56,944 INFO     [calc.py:669] Collecting results...
+06-09-2021:03:11:56,970 INFO     [calc.py:680] Saving results to /Users/sayaneshome/Desktop/lola1/grinn_resnum426to180/energies_intEnTotal.csv
+06-09-2021:03:11:56,975 INFO     [calc.py:682] Saving results to /Users/sayaneshome/Desktop/lola1/grinn_resnum426to180/energies_intEnElec.csv
+06-09-2021:03:11:56,978 INFO     [calc.py:684] Saving results to /Users/sayaneshome/Desktop/lola1/grinn_resnum426to180/energies_intEnVdW.csv
+06-09-2021:03:11:56,980 INFO     [calc.py:687] Saving results to /Users/sayaneshome/Desktop/lola1/grinn_resnum426to180/energies.pickle
+06-09-2021:03:11:56,982 INFO     [calc.py:692] Getting mean interaction energies...
+06-09-2021:03:11:57,195 DEBUG    [logger.py:131] 14276 atoms and 1 coordinate set(s) were parsed in 0.21s.
+06-09-2021:03:13:33,22 INFO     [calc.py:712] Cleaning up...
+06-09-2021:03:13:33,28 INFO     [calc.py:1110] FINAL: Computation sucessfully completed. Thank you for using gRINN.
